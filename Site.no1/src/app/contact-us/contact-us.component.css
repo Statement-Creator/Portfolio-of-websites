@@ -1,0 +1,18 @@
+.center{
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+img{
+    margin-top: 200px;
+    margin-left: -120px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.p1{
+    width:300px !important;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 22%;
+}
