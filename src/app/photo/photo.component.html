@@ -1,0 +1,48 @@
+<style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    .w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+    .w3-third img:hover{opacity: 1}
+    </style>
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+      <hr>
+      <div class="backgroundColor">
+      <b>Harry's Work in 2018. <br> <small> Click to zoom. </small></b>
+      </div>
+      <hr>
+
+    <!-- Push down content on small screens --> 
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+    
+    <!-- Photo grid -->
+    <div class="w3-row">
+      <div class="w3-third">
+        <img src="../../assets/35435986_1746662225370084_6767642558865604608_n.jpg" style="width:100%" onclick="onClick(this)" alt="Foundation for a house." >
+        <img src="../../assets/35385690_1746653702037603_6334003560941879296_n.jpg" style="width:100%" onclick="onClick(this)" alt="Finished house." >
+        <img src="../../assets/35432244_1746664072036566_8583587192977227776_n.jpg" style="width:100%" onclick="onClick(this)" alt="" >
+        <img src="../../assets/35463998_1746653952037578_1843292713814851584_n.jpg" style="width:100%" onclick="onClick(this)" alt="Cement walkway,stairs and balcony." >
+      </div>
+      
+      <div class="w3-third">
+        <img src="../../assets/35377560_1746659098703730_4214277509186846720_n.jpg" style="width:100%" onclick="onClick(this)" alt="Framework for a house." >
+        <img src="../../assets/35431403_1746656332037340_5410032138521149440_n.jpg" style="width:100%" onclick="onClick(this)" alt="" >
+        <img src="../../assets/35464473_1746665698703070_6168354115513483264_n.jpg" style="width:100%" onclick="onClick(this)" alt="Cement stairs and balcony." >
+        <img src="../../assets/35428370_1746659272037046_2214832978628968448_n.jpg" style="width:100%" onclick="onClick(this)" alt="" >
+      </div>
+      
+      <div class="w3-third">
+        <img src="../../assets/35484282_1746658325370474_3587706299699167232_n.jpg" style="width:100%" onclick="onClick(this)" alt="Exterior for a house." >
+        <img src="../../assets/35472596_1746656155370691_7851978997737979904_n.jpg" style="width:100%" onclick="onClick(this)" alt="Cement walkway and stairs." >
+        <img src="../../assets/35484856_1746666235369683_5335829148189327360_n.jpg" style="width:100%" onclick="onClick(this)" alt="Cement stairs and balcony." >
+        <img src="../../assets/35517422_1746657295370577_7967377119644745728_n.jpg" style="width:100%" onclick="onClick(this)" alt="Heated Floor System." >
+      </div>
+    </div>
+      <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+      <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+      <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+      </div>
+    </div>

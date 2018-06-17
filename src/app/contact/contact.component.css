@@ -1,0 +1,16 @@
+.sb{
+    width: 20px;
+}
+.contactIMG{
+    width:300px;
+    border: solid;
+    border-radius: 20px;
+    border-color: rgb(46, 46, 46) !important;
+}
+.center{
+    width: 550px;
+    margin: auto;
+}
+h2{
+    color: black !important;
+}

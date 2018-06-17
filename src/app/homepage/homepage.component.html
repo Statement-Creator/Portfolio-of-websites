@@ -1,0 +1,107 @@
+<!-- Top menu on small screens -->
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">Harry Enterprise</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:250px">
+
+  <!-- Push down content on small screens -->
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+  <br>
+  <br>
+
+  <!-- Image header -->
+  <div class="w3-display-container w3-container">
+    <img src="../../assets/35372510_1746663025370004_1914992988048588800_n.jpg" alt="Jeans" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small">Harry Enterprise</h1>
+      <h1 class="w3-hide-large w3-hide-medium">Harry Enterprise</h1>
+      <p><a [routerLink]="['/photos']" class="w3-button w3-black w3-padding-large w3-large">PHOTO GALLERY</a></p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Product grid -->
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="../../assets/35380233_1746658415370465_2270749157855592448_n.jpg" style="width:100%">
+      </div>
+      <br>
+      <div class="w3-container">
+        <img src="../../assets/35384476_1746666252036348_1407862405291048960_n.jpg" style="width:100%">
+      </div>
+      <br>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="../../assets/35384522_1746666395369667_264397916158820352_n.jpg" style="width:100%">
+        </div>
+        <br>
+      </div>
+      <div class="w3-container">
+        <img src="../../assets/35385690_1746653702037603_6334003560941879296_n.jpg" style="width:100%">
+      </div>
+      <br>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="../../assets/35386845_1746663752036598_5030667087538814976_n.jpg" style="width:100%">
+      </div>
+      <br>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="../../assets/35386891_1746664305369876_5245582187264212992_n.jpg" style="width:100%">
+        </div>
+        <br>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="../../assets/35428370_1746659272037046_2214832978628968448_n.jpg" style="width:100%">
+      </div>
+      <br>
+      <div class="w3-container">
+        <img src="../../assets/35400210_1746666708702969_1762669172577271808_n.jpg" style="width:100%">
+      </div>
+      <br>
+    </div>
+  </div>
+
+  <hr>
+   
+  <div class="container">
+    <div class="card-deck mb-3 text-center">
+
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Free Estimation</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$0 </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Great customer service.</li>
+            <li>Beautiful designs.</li>
+            <li>Good prices.</li>
+          </ul>
+          <a [routerLink]="['/contact']" ><button type="button" class="btn btn-lg btn-block">Contact Me</button></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+ 
+  <!-- End page content -->
+</div>
